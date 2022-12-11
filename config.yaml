@@ -1,0 +1,20 @@
+# ***** General ***** #
+token: "YOUR TOKEN HERE" # Your bot token
+server_id: 1234567890  # ID of the server in which the anniversaries will be checked
+logging_channel_id: 1234567890  # ID of the channel to log anniversaries in
+
+check_interval: # How often the bot checks for anniversaries (12 hours recommended)
+  seconds: 0
+  minutes: 0
+  hours: 12
+
+# ***** Aesthetic ***** #
+# Format options for all the options under the aesthetic section:
+# Mention the user: {user}
+# Anniversary: {year}
+
+# Leave any of these empty to not send them.
+logging_message: "{user} has reached their {year} year anniversary!" # The message that will be sent in to the logging channel.
+private_message: "You have reached your {year} year anniversary!" # The message that will be sent in to the user in the DMs.
+
+# Note: If you want to add an embed, you can modify the code manually.
